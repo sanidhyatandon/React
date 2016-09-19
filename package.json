@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "presinstall": "npm install -g webpack",
     "watch": "webpack -w",
-    "caddy": "caddy"
-    "start": "watch & caddy"
+    "start": "npm run watch & caddy"
   },
   "keywords": [],
   "author": "",
